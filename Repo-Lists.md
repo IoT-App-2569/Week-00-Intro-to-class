@@ -13,7 +13,7 @@
 | 10   | [Week-10-HTTP-UDP-CoAP-Local-Communication-and-Control](https://github.com/IoT-App-2569/Week-10-HTTP-UDP-CoAP-Local-Communication-and-Control) |
 | 11   | [Week-11-MQTT-Cloud-Communication-and-control](https://github.com/IoT-App-2569/Week-11-MQTT-Cloud-Communication-and-control)                   |
 | 12   | [Week-12-Flutter-Mobile-IoT-and-MQTT-Dashboard](https://github.com/IoT-App-2569/Week-12-Flutter-Mobile-IoT-and-MQTT-Dashboard)                 |
-| 13   |                                                                                                                                                |
+| 13   | [Week-13-Kestrel-Edge-Gateway-and-Protocol-Integration](https://github.com/IoT-App-2569/Week-13-Kestrel-Edge-Gateway-and-Protocol-Integration.git)                                                                                |
 |      |                                                                                                                                                |
 
 
