@@ -91,7 +91,7 @@ def parse_repos(file_path: Path):
         if match:
             w_num = int(match.group(1))
             w_tag = f"W{w_num:02d}"
-            repo_slug = match.group(2).strip()
+            repo_slug = match.group(2).strip().removesuffix(".git")
             repos[w_tag] = repo_slug
 
     return repos
