@@ -1,6 +1,6 @@
 # 📊 สรุปการส่งงาน Applications of IoT (IoT-App-2569)
 
-> 🕒 **อัปเดตล่าสุด:** `2026-10-27 11:05:31`  
+> 🕒 **อัปเดตล่าสุด:** `2026-10-27 11:18:13`  
 > 📦 **ประมวลผล:** 470 Pull Requests | ⚠️ **ต้องตรวจทาน:** 0 รายการ  
 > 💡 **สัญลักษณ์:** `✅ [PR]` = งานเดี่ยว | `👥 [PR]` = งานกลุ่ม (ส่งเป็นทีม) | `❌` = ยังไม่พบงาน  
 > 📅 **วันที่:** ระบุเป็น `วัน-เดือน` (เช่น `04-07`, `15-10`) อยู่ใต้รหัส PR
@@ -28,7 +28,7 @@
 | 17 | 67030099 | นายธีรภพ พรหมวิหาร | ❌ | ❌ | ✅ [37](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/37)<br><small>21-07</small> | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | **1** |
 | 18 | 67030109 | นายนวพล สวัสดี | ✅ [45](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/45)<br><small>06-07</small> | ✅ [33](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/33)<br><small>10-07</small> | ✅ [23](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/23)<br><small>20-07</small> | ✅ [15](https://github.com/IoT-App-2569/Week-04-LED-and-Color-Sensing/pull/15)<br><small>28-07</small> | ✅ [26](https://github.com/IoT-App-2569/Week-05-Wi-Fi-ESP32/pull/26)<br><small>09-08</small> | ✅ [20](https://github.com/IoT-App-2569/Week-06-Wi-Fi-AP-Throughput-FreeRTOS/pull/20)<br><small>18-08</small> | ✅ [19](https://github.com/IoT-App-2569/Week-07-W-iFi-Privisioning/pull/19)<br><small>14-09</small> | ✅ [18](https://github.com/IoT-App-2569/Week-08-Kestrel-Web-Server/pull/18)<br><small>29-09</small> | ✅ [43](https://github.com/IoT-App-2569/Week-09-SPI-OLED-and-Kestrel-UI/pull/43)<br><small>26-10</small> | ✅ [24](https://github.com/IoT-App-2569/Week-10-HTTP-UDP-CoAP-Local-Communication-and-Control/pull/24)<br><small>26-10</small> | ❌ | ❌ | ❌ | **10** |
 | 19 | 67030110 | นางสาวนัจญมา จันทร์ชู | ✅ [15](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/15)<br><small>03-07</small> | ✅ [27](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/27)<br><small>08-07</small> | ✅ [20](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/20)<br><small>19-07</small> | ✅ [14](https://github.com/IoT-App-2569/Week-04-LED-and-Color-Sensing/pull/14)<br><small>28-07</small> | ✅ [31](https://github.com/IoT-App-2569/Week-05-Wi-Fi-ESP32/pull/31)<br><small>10-08</small> | ✅ [24](https://github.com/IoT-App-2569/Week-06-Wi-Fi-AP-Throughput-FreeRTOS/pull/24)<br><small>24-08</small> | ✅ [7](https://github.com/IoT-App-2569/Week-07-W-iFi-Privisioning/pull/7)<br><small>31-08</small> | ✅ [6](https://github.com/IoT-App-2569/Week-08-Kestrel-Web-Server/pull/6)<br><small>10-09</small> | ✅ [31](https://github.com/IoT-App-2569/Week-09-SPI-OLED-and-Kestrel-UI/pull/31)<br><small>03-10</small> | ✅ [29](https://github.com/IoT-App-2569/Week-10-HTTP-UDP-CoAP-Local-Communication-and-Control/pull/29)<br><small>27-10</small> | ❌ | ❌ | ❌ | **10** |
-| 20 | 67030115 | นางสาวน้ำทิพย์ ป้อมหิน | ✅ [35](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/35)<br><small>05-07</small> | ✅ [35](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/35)<br><small>10-07</small> | ✅ [31](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/31)<br><small>20-07</small> | ❌ | ✅ [42](https://github.com/IoT-App-2569/Week-05-Wi-Fi-ESP32/pull/42)<br><small>21-09</small> | ✅ [31](https://github.com/IoT-App-2569/Week-06-Wi-Fi-AP-Throughput-FreeRTOS/pull/31)<br><small>06-10</small> | ✅ [29](https://github.com/IoT-App-2569/Week-07-W-iFi-Privisioning/pull/29)<br><small>24-10</small> | ✅ [36](https://github.com/IoT-App-2569/Week-08-Kestrel-Web-Server/pull/36)<br><small>27-10</small> | ✅ [42](https://github.com/IoT-App-2569/Week-09-SPI-OLED-and-Kestrel-UI/pull/42)<br><small>26-10</small> | ❌ | ❌ | ❌ | ❌ | **8** |
+| 20 | 67030115 | นางสาวน้ำทิพย์ ป้อมหิน | ✅ [35](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/35)<br><small>05-07</small> | ✅ [35](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/35)<br><small>10-07</small> | ✅ [31](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/31)<br><small>20-07</small> | ❌ | ✅ [42](https://github.com/IoT-App-2569/Week-05-Wi-Fi-ESP32/pull/42)<br><small>21-09</small> | ✅ [31](https://github.com/IoT-App-2569/Week-06-Wi-Fi-AP-Throughput-FreeRTOS/pull/31)<br><small>06-10</small> | ✅ [29](https://github.com/IoT-App-2569/Week-07-W-iFi-Privisioning/pull/29)<br><small>24-10</small> | ✅ [37](https://github.com/IoT-App-2569/Week-08-Kestrel-Web-Server/pull/37)<br><small>27-10</small> | ✅ [42](https://github.com/IoT-App-2569/Week-09-SPI-OLED-and-Kestrel-UI/pull/42)<br><small>26-10</small> | ❌ | ❌ | ❌ | ❌ | **8** |
 | 21 | 67030116 | นายนิธิ ทิพย์ประเสริฐ | ✅ [43](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/43)<br><small>06-07</small> | ✅ [28](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/28)<br><small>09-07</small> | ✅ [26](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/26)<br><small>20-07</small> | ✅ [17](https://github.com/IoT-App-2569/Week-04-LED-and-Color-Sensing/pull/17)<br><small>30-07</small> | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | **4** |
 | 22 | 67030118 | นางสาวนิรภาดา ขัตติยะ | ✅ [19](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/19)<br><small>04-07</small> | ✅ [18](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/18)<br><small>07-07</small> | ✅ [14](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/14)<br><small>15-07</small> | ✅ [13](https://github.com/IoT-App-2569/Week-04-LED-and-Color-Sensing/pull/13)<br><small>27-07</small> | ✅ [32](https://github.com/IoT-App-2569/Week-05-Wi-Fi-ESP32/pull/32)<br><small>10-08</small> | ✅ [22](https://github.com/IoT-App-2569/Week-06-Wi-Fi-AP-Throughput-FreeRTOS/pull/22)<br><small>23-08</small> | ✅ [14](https://github.com/IoT-App-2569/Week-07-W-iFi-Privisioning/pull/14)<br><small>07-09</small> | ✅ [14](https://github.com/IoT-App-2569/Week-08-Kestrel-Web-Server/pull/14)<br><small>14-09</small> | ✅ [34](https://github.com/IoT-App-2569/Week-09-SPI-OLED-and-Kestrel-UI/pull/34)<br><small>14-10</small> | ✅ [8](https://github.com/IoT-App-2569/Week-10-HTTP-UDP-CoAP-Local-Communication-and-Control/pull/8)<br><small>18-10</small> | ✅ [18](https://github.com/IoT-App-2569/Week-11-MQTT-Cloud-Communication-and-control/pull/18)<br><small>26-10</small> | ❌ | ❌ | **11** |
 | 23 | 67030120 | นางสาวนูรีน ปิ่นคล้าย | ✅ [14](https://github.com/IoT-App-2569/Week-01-Introduction-and-IoT-Architecture/pull/14)<br><small>03-07</small> | ✅ [43](https://github.com/IoT-App-2569/Week-02-Sensors-and-calibration/pull/43)<br><small>14-07</small> | ✅ [30](https://github.com/IoT-App-2569/Week-03-Sensors-and-calibration-II/pull/30)<br><small>20-07</small> | ✅ [34](https://github.com/IoT-App-2569/Week-04-LED-and-Color-Sensing/pull/34)<br><small>15-08</small> | ✅ [13](https://github.com/IoT-App-2569/Week-05-Wi-Fi-ESP32/pull/13)<br><small>04-08</small> | ✅ [18](https://github.com/IoT-App-2569/Week-06-Wi-Fi-AP-Throughput-FreeRTOS/pull/18)<br><small>15-08</small> | ✅ [24](https://github.com/IoT-App-2569/Week-07-W-iFi-Privisioning/pull/24)<br><small>08-10</small> | ✅ [3](https://github.com/IoT-App-2569/Week-08-Kestrel-Web-Server/pull/3)<br><small>08-09</small> | ✅ [29](https://github.com/IoT-App-2569/Week-09-SPI-OLED-and-Kestrel-UI/pull/29)<br><small>22-09</small> | ✅ [3](https://github.com/IoT-App-2569/Week-10-HTTP-UDP-CoAP-Local-Communication-and-Control/pull/3)<br><small>08-10</small> | ❌ | ❌ | ❌ | **10** |
@@ -79,4 +79,112 @@
 
 ## ⚠️ รายการที่ต้องตรวจสอบเพิ่มเติม (Unmatched PRs)
 
-🎉 *ยอดเยี่ยม! จับคู่งานและรหัสนิสิตได้ครบทุกรายการที่ตรวจสอบ*
+🎉 *ยอดเยี่ยม! จับคู่งานและรหัสนักศึกษาได้ครบทุกรายการที่ตรวจสอบ*
+
+
+---
+
+## 📈 สรุปสถิติและวิเคราะห์พฤติกรรมการส่งงาน
+
+### 1. สรุปการส่งงานรายสัปดาห์ (ส่งแล้ว / ยังไม่ส่ง)
+
+| สัปดาห์ | รวมส่ง (คน) | รวมขาด (คน) | % ส่ง | Sec 1 (ส่ง/ขาด) | Sec 2 (ส่ง/ขาด) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **W01** | **57** | 3 | 95.0% | 27 / 3 | 30 / 0 |
+| **W02** | **47** | 13 | 78.3% | 27 / 3 | 20 / 10 |
+| **W03** | **49** | 11 | 81.7% | 28 / 2 | 21 / 9 |
+| **W04** | **41** | 19 | 68.3% | 23 / 7 | 18 / 12 |
+| **W05** | **46** | 14 | 76.7% | 26 / 4 | 20 / 10 |
+| **W06** | **42** | 18 | 70.0% | 23 / 7 | 19 / 11 |
+| **W07** | **34** | 26 | 56.7% | 17 / 13 | 17 / 13 |
+| **W08** | **32** | 28 | 53.3% | 16 / 14 | 16 / 14 |
+| **W09** | **34** | 26 | 56.7% | 19 / 11 | 15 / 15 |
+| **W10** | **27** | 33 | 45.0% | 11 / 19 | 16 / 14 |
+| **W11** | **20** | 40 | 33.3% | 6 / 24 | 14 / 16 |
+| **W12** | **19** | 41 | 31.7% | 6 / 24 | 13 / 17 |
+| **W13** | **11** | 49 | 18.3% | 2 / 28 | 9 / 21 |
+
+
+### 2. รายชื่อนักศึกษาที่ส่งครบทุกสัปดาห์ (13/13) — รวม 10 คน
+
+| ตอนเรียน | ลำดับ | รหัสนักศึกษา | ชื่อ-สกุล |
+| :---: | :---: | :--- | :---: | :--- |
+| Sec 1 | 2 | `67030011` | นายกฤตนัย บุญน้อย |
+| Sec 1 | 16 | `67030098` | นายธีรณัฏฐ์ ภูติวณิชย์ |
+| Sec 2 | 3 | `67030183` | นายภูวิชญ์ ประกอบจิตร |
+| Sec 2 | 6 | `67030211` | นางสาววิชญาพร เนียมเที่ยง |
+| Sec 2 | 13 | `67030260` | นางสาวอาทิตยา ผิวขำ |
+| Sec 2 | 14 | `67030261` | นายอิทธิกร ทองสิมา |
+| Sec 2 | 22 | `67030311` | นางสาวปภัสสร เอี่ยมสอาด |
+| Sec 2 | 24 | `67030323` | นายพรพรม สุขใจมิตร |
+| Sec 2 | 26 | `67030338` | นายรัฐภูมิ สอนเขียว |
+| Sec 2 | 28 | `67030351` | นายศิวาภัทร อุยสุย |
+
+
+### 3. วิเคราะห์พฤติกรรมการส่งงาน (Behavioral Insights)
+
+#### ⚡ กลุ่มที่เร่งส่งวันเดียวหลายงาน (One-Day Rush / Speedrun)
+> นักศึกษาที่มีการส่งงานในวันเดียวกันตั้งแต่ **3 ใบงานขึ้นไป** (สปีดรันช่วงโค้งสุดท้ายของเทอม)
+
+| ตอนเรียน | รหัสนักศึกษา | ชื่อ-สกุล | รวมส่ง | วันที่เร่งส่งและใบงาน |
+| :---: | :---: | :--- | :---: | :--- |
+| Sec 1 | `67030011` | นายกฤตนัย บุญน้อย | **13** | **06-10** (3 งาน: W08, W09, W10) |
+| Sec 1 | `67030043` | นายจิรวัตร พูลรัตน์ | **10** | **23-07** (3 งาน: W02, W03, W04) |
+| Sec 1 | `67030096` | นางสาวธัญวรัตม์ ลุลอบ | **12** | **24-10** (10 งาน: W02, W03, W04, W06, W07, W08, W09, W10, W11, W12) |
+| Sec 1 | `67030169` | นางสาวภัทรกร วงศ์คำหาร | **12** | **23-10** (4 งาน: W04, W06, W08, W09) |
+| Sec 2 | `67030183` | นายภูวิชญ์ ประกอบจิตร | **13** | **25-10** (4 งาน: W06, W08, W09, W10)<br>**03-08** (3 งาน: W03, W04, W05)<br>**26-10** (3 งาน: W11, W12, W13) |
+| Sec 2 | `67030207` | นายวัทธิกร อินทองคำ | **7** | **26-10** (6 งาน: W02, W03, W04, W05, W06, W10) |
+| Sec 2 | `67030211` | นางสาววิชญาพร เนียมเที่ยง | **13** | **27-10** (13 งาน: W01, W02, W03, W04, W05, W06, W07, W08, W09, W10, W11, W12, W13) |
+| Sec 2 | `67030215` | นายวิศวะ กำจร | **10** | **24-10** (3 งาน: W06, W07, W10) |
+| Sec 2 | `67030236` | นางสาวสราสินี สิทธิสาร | **12** | **24-10** (4 งาน: W07, W10, W11, W12) |
+| Sec 2 | `67030261` | นายอิทธิกร ทองสิมา | **13** | **26-10** (3 งาน: W11, W12, W13) |
+| Sec 2 | `67030281` | นายชนินทร์ คำวงศ์ษา | **7** | **26-10** (3 งาน: W03, W05, W06) |
+| Sec 2 | `67030302` | นายธีธัช รัตนโสภา | **4** | **26-10** (3 งาน: W01, W03, W04) |
+| Sec 2 | `67030314` | นายปวริศวร์ วงศ์แสนสุข | **12** | **26-10** (6 งาน: W04, W06, W10, W11, W12, W13) |
+| Sec 2 | `67030323` | นายพรพรม สุขใจมิตร | **13** | **26-10** (4 งาน: W03, W08, W10, W13) |
+| Sec 2 | `67030334` | นางสาวภิญญาพัชญ์ บานบัว | **7** | **25-10** (3 งาน: W03, W07, W08) |
+
+
+#### 🔄 กลุ่มที่ทำย้อนไปย้อนมา (Out-of-Order Submissions)
+> นักศึกษาที่ส่งงานสัปดาห์หลังไปก่อน แล้วค่อยย้อนกลับมาส่งงานของสัปดาห์แรกๆ ในภายหลัง
+
+| ตอนเรียน | รหัสนักศึกษา | ชื่อ-สกุล | รวมส่ง | ตัวอย่างการส่งย้อนลำดับ |
+| :---: | :---: | :--- | :---: | :--- |
+| Sec 1 | `67030002` | นางสาวกชณัช น้อยพันธ์ | **10** | W09 (22-09) ส่งก่อน W07 (26-10)<br>W12 (24-10) ส่งก่อน W07 (26-10)<br>W09 (22-09) ส่งก่อน W08 (27-10)<br>*(สลับทั้งหมด 4 คู่)* |
+| Sec 1 | `67030052` | นายชยางกูร สองพิมพ์ | **6** | W05 (10-08) ส่งก่อน W03 (26-10)<br>W08 (13-10) ส่งก่อน W03 (26-10)<br>W09 (14-10) ส่งก่อน W03 (26-10) |
+| Sec 1 | `67030059` | นางสาวชุธิพร เชาว์ชัย | **10** | W08 (20-10) ส่งก่อน W07 (26-10)<br>W09 (22-09) ส่งก่อน W07 (26-10)<br>W12 (20-10) ส่งก่อน W07 (26-10)<br>*(สลับทั้งหมด 4 คู่)* |
+| Sec 1 | `67030096` | นางสาวธัญวรัตม์ ลุลอบ | **12** | W05 (04-08) ส่งก่อน W02 (24-10)<br>W05 (04-08) ส่งก่อน W03 (24-10)<br>W05 (04-08) ส่งก่อน W04 (24-10) |
+| Sec 1 | `67030120` | นางสาวนูรีน ปิ่นคล้าย | **10** | W05 (04-08) ส่งก่อน W04 (15-08)<br>W08 (08-09) ส่งก่อน W07 (08-10)<br>W09 (22-09) ส่งก่อน W07 (08-10) |
+| Sec 1 | `67030169` | นางสาวภัทรกร วงศ์คำหาร | **12** | W05 (06-08) ส่งก่อน W04 (23-10)<br>W08 (23-10) ส่งก่อน W07 (25-10)<br>W09 (23-10) ส่งก่อน W07 (25-10)<br>*(สลับทั้งหมด 7 คู่)* |
+| Sec 2 | `67030195` | นางสาวรุสนีดา กูวิง | **11** | W08 (11-09) ส่งก่อน W07 (17-10)<br>W09 (21-09) ส่งก่อน W07 (17-10) |
+| Sec 2 | `67030215` | นายวิศวะ กำจร | **10** | W08 (13-09) ส่งก่อน W06 (24-10)<br>W09 (21-09) ส่งก่อน W06 (24-10)<br>W08 (13-09) ส่งก่อน W07 (24-10)<br>*(สลับทั้งหมด 4 คู่)* |
+| Sec 2 | `67030216` | นายวุฒิชัย จันทร์เดชะ | **12** | W03 (20-07) ส่งก่อน W02 (25-10)<br>W04 (02-08) ส่งก่อน W02 (25-10)<br>W05 (09-08) ส่งก่อน W02 (25-10)<br>*(สลับทั้งหมด 10 คู่)* |
+| Sec 2 | `67030236` | นางสาวสราสินี สิทธิสาร | **12** | W03 (20-07) ส่งก่อน W02 (21-09)<br>W04 (16-08) ส่งก่อน W02 (21-09)<br>W05 (06-08) ส่งก่อน W02 (21-09)<br>*(สลับทั้งหมด 8 คู่)* |
+| Sec 2 | `67030314` | นายปวริศวร์ วงศ์แสนสุข | **12** | W05 (03-08) ส่งก่อน W04 (26-10)<br>W07 (25-08) ส่งก่อน W04 (26-10)<br>W08 (07-09) ส่งก่อน W04 (26-10)<br>*(สลับทั้งหมด 5 คู่)* |
+| Sec 2 | `67030323` | นายพรพรม สุขใจมิตร | **13** | W04 (03-08) ส่งก่อน W03 (26-10)<br>W05 (03-08) ส่งก่อน W03 (26-10)<br>W06 (10-08) ส่งก่อน W03 (26-10)<br>*(สลับทั้งหมด 12 คู่)* |
+| Sec 2 | `67030334` | นางสาวภิญญาพัชญ์ บานบัว | **7** | W05 (20-09) ส่งก่อน W03 (25-10)<br>W07 (25-10) ส่งก่อน W06 (26-10)<br>W08 (25-10) ส่งก่อน W06 (26-10) |
+
+
+#### 🌟 กลุ่มที่ส่งสม่ำเสมอตลอดเทอม (Consistent & On-Time)
+> นักศึกษาที่ส่งงานกระจายตัวสม่ำเสมอในแต่ละเดือน (ก.ค. - ต.ค.) ไม่ดองงาน และไม่ส่งอัดเกิน 2 งานในวันเดียว
+
+| ตอนเรียน | รหัสนักศึกษา | ชื่อ-สกุล | รวมส่ง | รูปแบบการส่ง |
+| :---: | :---: | :--- | :---: | :--- |
+| Sec 1 | `67030002` | นางสาวกชณัช น้อยพันธ์ | **10/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 2 งาน) |
+| Sec 1 | `67030037` | นายคุณากร มะซอ | **10/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 1 | `67030059` | นางสาวชุธิพร เชาว์ชัย | **10/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 2 งาน) |
+| Sec 1 | `67030091` | นายธนวัฒน์ พุทธา | **11/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 2 งาน) |
+| Sec 1 | `67030098` | นายธีรณัฏฐ์ ภูติวณิชย์ | **13/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 1 | `67030109` | นายนวพล สวัสดี | **10/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 2 งาน) |
+| Sec 1 | `67030110` | นางสาวนัจญมา จันทร์ชู | **10/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 1 | `67030118` | นางสาวนิรภาดา ขัตติยะ | **11/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 1 | `67030120` | นางสาวนูรีน ปิ่นคล้าย | **10/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 2 งาน) |
+| Sec 2 | `67030195` | นางสาวรุสนีดา กูวิง | **11/13** | ส่งกระจายสม่ำเสมอ 5 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 2 | `67030216` | นายวุฒิชัย จันทร์เดชะ | **12/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 2 | `67030260` | นางสาวอาทิตยา ผิวขำ | **13/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 2 | `67030296` | นายเทพทัต บัวเทศ | **11/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 2 | `67030298` | นายธนบดี บุญภมร | **12/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 2 | `67030311` | นางสาวปภัสสร เอี่ยมสอาด | **13/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 2 งาน) |
+| Sec 2 | `67030338` | นายรัฐภูมิ สอนเขียว | **13/13** | ส่งกระจายสม่ำเสมอ 4 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+| Sec 2 | `67030351` | นายศิวาภัทร อุยสุย | **13/13** | ส่งกระจายสม่ำเสมอ 5 เดือน (ส่งสูงสุดต่อวัน: 1 งาน) |
+

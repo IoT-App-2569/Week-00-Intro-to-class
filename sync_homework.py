@@ -234,7 +234,7 @@ def generate_markdown(students, week_keys, unmatched_prs, total_prs):
     # Unmatched Section
     md.append("## ⚠️ รายการที่ต้องตรวจสอบเพิ่มเติม (Unmatched PRs)\n")
     if not unmatched_prs:
-        md.append("🎉 *ยอดเยี่ยม! จับคู่งานและรหัสนิสิตได้ครบทุกรายการที่ตรวจสอบ*\n")
+        md.append("🎉 *ยอดเยี่ยม! จับคู่งานและรหัสนักศึกษาได้ครบทุกรายการที่ตรวจสอบ*\n")
     else:
         md.append("| สัปดาห์ | PR | วันที่ส่ง | หัวข้อ PR | ผู้ส่ง | สาเหตุที่ต้องตรวจสอบ |")
         md.append("| :---: | :---: | :---: | :--- | :---: | :--- |")
@@ -249,7 +249,128 @@ def generate_markdown(students, week_keys, unmatched_prs, total_prs):
             md.append(f"| `{week}` | {pr_link} | `{date_str}` | {title} | `{author}` | {reason} |")
         md.append("\n")
 
+    # Analytics Section
+    md.append(generate_analytics(students, week_keys))
+
     return "\n".join(md)
+
+
+def generate_analytics(students, week_keys):
+    lines = []
+    lines.append("\n---\n")
+    lines.append("## 📈 สรุปสถิติและวิเคราะห์พฤติกรรมการส่งงาน\n")
+
+    total_stds = len(students)
+    sec1 = [s for s in students if s["section"] == 1]
+    sec2 = [s for s in students if s["section"] == 2]
+
+    # 1. Weekly Breakdown
+    lines.append("### 1. สรุปการส่งงานรายสัปดาห์ (ส่งแล้ว / ยังไม่ส่ง)\n")
+    lines.append("| สัปดาห์ | รวมส่ง (คน) | รวมขาด (คน) | % ส่ง | Sec 1 (ส่ง/ขาด) | Sec 2 (ส่ง/ขาด) |")
+    lines.append("| :---: | :---: | :---: | :---: | :---: | :---: |")
+
+    for w in week_keys:
+        s1_done = sum(1 for s in sec1 if s["submissions"].get(w))
+        s1_miss = len(sec1) - s1_done
+        s2_done = sum(1 for s in sec2 if s["submissions"].get(w))
+        s2_miss = len(sec2) - s2_done
+        tot_done = s1_done + s2_done
+        tot_miss = total_stds - tot_done
+        pct = (tot_done / total_stds * 100) if total_stds else 0
+        lines.append(f"| **{w}** | **{tot_done}** | {tot_miss} | {pct:.1f}% | {s1_done} / {s1_miss} | {s2_done} / {s2_miss} |")
+    lines.append("\n")
+
+    # 2. Complete All Weeks
+    complete_students = [s for s in students if all(s["submissions"].get(w) for w in week_keys)]
+    lines.append(f"### 2. รายชื่อนักศึกษาที่ส่งครบทุกสัปดาห์ ({len(week_keys)}/{len(week_keys)}) — รวม {len(complete_students)} คน\n")
+    lines.append("| ตอนเรียน | ลำดับ | รหัสนักศึกษา | ชื่อ-สกุล |")
+    lines.append("| :---: | :---: | :--- | :---: | :--- |")
+    for s in complete_students:
+        lines.append(f"| Sec {s['section']} | {s['order']} | `{s['id']}` | {s['name']} |")
+    lines.append("\n")
+
+    # 3. Behavioral Insights
+    lines.append("### 3. วิเคราะห์พฤติกรรมการส่งงาน (Behavioral Insights)\n")
+
+    # 3.1 One-Day Rush (>= 3 weeks on same day)
+    lines.append("#### ⚡ กลุ่มที่เร่งส่งวันเดียวหลายงาน (One-Day Rush / Speedrun)")
+    lines.append("> นักศึกษาที่มีการส่งงานในวันเดียวกันตั้งแต่ **3 ใบงานขึ้นไป** (สปีดรันช่วงโค้งสุดท้ายของเทอม)\n")
+    lines.append("| ตอนเรียน | รหัสนักศึกษา | ชื่อ-สกุล | รวมส่ง | วันที่เร่งส่งและใบงาน |")
+    lines.append("| :---: | :---: | :--- | :---: | :--- |")
+
+    for s in students:
+        date_map = {}
+        for w in week_keys:
+            for sub in s["submissions"].get(w, []):
+                d = sub.get("date_str")
+                if d:
+                    date_map.setdefault(d, []).append(w)
+        rush_dates = [(d, wks) for d, wks in date_map.items() if len(set(wks)) >= 3]
+        if rush_dates:
+            rush_dates.sort(key=lambda x: len(set(x[1])), reverse=True)
+            desc_items = [f"**{d}** ({len(set(wks))} งาน: {', '.join(sorted(list(set(wks))))})" for d, wks in rush_dates]
+            tot_done = sum(1 for w in week_keys if s["submissions"].get(w))
+            lines.append(f"| Sec {s['section']} | `{s['id']}` | {s['name']} | **{tot_done}** | {'<br>'.join(desc_items)} |")
+    lines.append("\n")
+
+    # 3.2 Out-of-Order Submissions
+    lines.append("#### 🔄 กลุ่มที่ทำย้อนไปย้อนมา (Out-of-Order Submissions)")
+    lines.append("> นักศึกษาที่ส่งงานสัปดาห์หลังไปก่อน แล้วค่อยย้อนกลับมาส่งงานของสัปดาห์แรกๆ ในภายหลัง\n")
+    lines.append("| ตอนเรียน | รหัสนักศึกษา | ชื่อ-สกุล | รวมส่ง | ตัวอย่างการส่งย้อนลำดับ |")
+    lines.append("| :---: | :---: | :--- | :---: | :--- |")
+
+    for s in students:
+        dated_entries = []
+        for idx, w in enumerate(week_keys):
+            for sub in s["submissions"].get(w, []):
+                d = sub.get("date_str")
+                if d and "-" in d:
+                    parts = d.split("-")
+                    try:
+                        sort_key = int(parts[1]) * 100 + int(parts[0])
+                        dated_entries.append((idx + 1, sort_key, d, w))
+                    except ValueError:
+                        pass
+        inversions = []
+        for i in range(len(dated_entries)):
+            for j in range(i + 1, len(dated_entries)):
+                w1, k1, d1, tag1 = dated_entries[i]
+                w2, k2, d2, tag2 = dated_entries[j]
+                if w1 < w2 and k1 > k2:
+                    inversions.append(f"{tag2} ({d2}) ส่งก่อน {tag1} ({d1})")
+
+        if len(inversions) >= 2:
+            tot_done = sum(1 for w in week_keys if s["submissions"].get(w))
+            sample = "<br>".join(inversions[:3])
+            if len(inversions) > 3:
+                sample += f"<br>*(สลับทั้งหมด {len(inversions)} คู่)*"
+            lines.append(f"| Sec {s['section']} | `{s['id']}` | {s['name']} | **{tot_done}** | {sample} |")
+    lines.append("\n")
+
+    # 3.3 Consistent Performers
+    lines.append("#### 🌟 กลุ่มที่ส่งสม่ำเสมอตลอดเทอม (Consistent & On-Time)")
+    lines.append("> นักศึกษาที่ส่งงานกระจายตัวสม่ำเสมอในแต่ละเดือน (ก.ค. - ต.ค.) ไม่ดองงาน และไม่ส่งอัดเกิน 2 งานในวันเดียว\n")
+    lines.append("| ตอนเรียน | รหัสนักศึกษา | ชื่อ-สกุล | รวมส่ง | รูปแบบการส่ง |")
+    lines.append("| :---: | :---: | :--- | :---: | :--- |")
+
+    for s in students:
+        tot_done = sum(1 for w in week_keys if s["submissions"].get(w))
+        if tot_done >= 10:
+            date_map = {}
+            months = set()
+            for w in week_keys:
+                for sub in s["submissions"].get(w, []):
+                    d = sub.get("date_str")
+                    if d:
+                        date_map.setdefault(d, []).append(w)
+                        if "-" in d:
+                            months.add(d.split("-")[1])
+            max_daily = max(len(set(wks)) for wks in date_map.values()) if date_map else 0
+            if len(months) >= 4 and max_daily <= 2:
+                lines.append(f"| Sec {s['section']} | `{s['id']}` | {s['name']} | **{tot_done}/{len(week_keys)}** | ส่งกระจายสม่ำเสมอ {len(months)} เดือน (ส่งสูงสุดต่อวัน: {max_daily} งาน) |")
+    lines.append("\n")
+
+    return "\n".join(lines)
 
 
 def main():
@@ -259,9 +380,9 @@ def main():
     print("กำลังโหลดรายชื่อนักศึกษา...")
     students = parse_students(STUDENT_FILE)
     if not students:
-        print("ไม่พบข้อมูลนิสิตใน Student Name.md")
+        print("ไม่พบข้อมูลนักศึกษาใน Student Name.md")
         return
-    print(f"โหลดข้อมูลนิสิตเรียบร้อย: {len(students)} คน")
+    print(f"โหลดข้อมูลนักศึกษาเรียบร้อย: {len(students)} คน")
 
     repos = parse_repos(REPO_FILE)
     if not repos:
